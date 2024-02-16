@@ -2,9 +2,12 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# convert_pdf_to_images()
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+`convert_pdf_to_images()` method is the starting step for tabular data ingestion and it works as the following:
+
+<img src="https://sentinel-ai-docs.vercel.app/img/img/pdf_to_images" />
+
 
 - `src/pages/index.js` → `localhost:3000/`
 - `src/pages/foo.md` → `localhost:3000/foo`
