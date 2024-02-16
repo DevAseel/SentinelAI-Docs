@@ -6,7 +6,7 @@ sidebar_position: 1
 
 `convert_pdf_to_images()` method is the starting step for tabular data ingestion and it works as the following:
 
-<img src="https://sentinel-ai-docs.vercel.app/img/img/pdf_to_images" />
+<img src="https://sentinel-ai-docs.vercel.app/img/pdf_to_images.png" />
 
 
 - `src/pages/index.js` → `localhost:3000/`
