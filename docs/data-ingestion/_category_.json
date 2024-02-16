@@ -1,0 +1,8 @@
+{
+  "label": "Data Ingestion",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Helper tools to observe, control, and evaluate the ingestions of data in your vectorstore."
+  }
+}
