@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "SentinelAI",
-  tagline: "Build Production Read RAG Apps with Confidence",
+  tagline: "Build Production Ready RAG Apps with Confidence",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
