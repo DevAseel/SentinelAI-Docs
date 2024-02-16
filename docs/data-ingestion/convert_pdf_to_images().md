@@ -8,39 +8,19 @@ sidebar_position: 1
 
 <img src="https://sentinel-ai-docs.vercel.app/img/pdf_to_images.png" />
 
+## Usage
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+- Place the pdf file you would like to process in `./pdfs` directory.
+- Find the execution file at `./convert_pdf_to_images.py` and run the following command:
 
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
+```bash
+    python pdf_to_images_converter.py --log-level debug --pdf-name <your-pdf-name>
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+## Parameters
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+| Parameter        | Description                                                                     | Type   | Required | Default            | Options                                         |
+|------------------|---------------------------------------------------------------------------------|--------|----------|--------------------|-------------------------------------------------|
+| pdf_path         | the name of the pdf file inside `./pdfs` directory wihout the `.pdf` extension  | string | &check;  | _                  | _                                               |
+| output_directory | the relative path to the output directory where the images will be stored       | string | &cross;  | `./outputs/images` | _                                               |
+| --log-level      | the level of the log messages you would like to display when executing the file | string | &cross;  | `info`             | `debug`, `info`, `warning`, `error`, `critical` |
