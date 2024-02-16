@@ -38,7 +38,7 @@ sidebar_position: 2
 | Parameter          | Description                                                                     | Type   | Required | Default                                | Options                                         |
 |--------------------|---------------------------------------------------------------------------------|--------|----------|----------------------------------------|-------------------------------------------------|
 | --img-path         | the relative path of the image                                                  | string | &check;  | _                                      | _                                               |
-| --json             | set true to save output as a json file                                          | boolean| &cross;  | `false`                                | _                                               |
+| --json             | set true to save output as a json file                                          | boolean| &cross;  | `false`                                | `true`, `false`                                               |
 | --json-path        | add to set a custom path for the saved json file                                | string | &cross;  | `./scanned_tables_json`                | _                                               |
 | --model-name       | set to customize the OCR model                                                  | string | &cross;  | `microsoft/table-transformer-detection`| _                                               |
 | --log-level        | the level of the log messages you would like to display when executing the file | string | &cross;  | `info`                                 | `debug`, `info`, `warning`, `error`, `critical` |
