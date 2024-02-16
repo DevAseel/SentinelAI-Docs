@@ -19,8 +19,8 @@ sidebar_position: 1
 
 ## Parameters
 
-| Parameter        | Description                                                                     | Type   | Required | Default            | Options                                         |
-|------------------|---------------------------------------------------------------------------------|--------|----------|--------------------|-------------------------------------------------|
-| pdf-name         | the name of the pdf file inside `./pdfs` directory wihout the `.pdf` extension  | string | &check;  | _                  | _                                               |
-| output-directory | the relative path to the output directory where the images will be stored       | string | &cross;  | `./outputs/images` | _                                               |
-| --log-level      | the level of the log messages you would like to display when executing the file | string | &cross;  | `info`             | `debug`, `info`, `warning`, `error`, `critical` |
+| Parameter          | Description                                                                     | Type   | Required | Default            | Options                                         |
+|--------------------|---------------------------------------------------------------------------------|--------|----------|--------------------|-------------------------------------------------|
+| --pdf-name         | the name of the pdf file inside `./pdfs` directory wihout the `.pdf` extension  | string | &check;  | _                  | _                                               |
+| --output-directory | the relative path to the output directory where the images will be stored       | string | &cross;  | `./outputs/images` | _                                               |
+| --log-level        | the level of the log messages you would like to display when executing the file | string | &cross;  | `info`             | `debug`, `info`, `warning`, `error`, `critical` |
