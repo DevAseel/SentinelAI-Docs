@@ -6,7 +6,7 @@ sidebar_position: 5
 
 `table_constructor()` class is used after `tables_scanner()` to construct tables by defining rows for detected tables. The method loads the OCR model for table structure recognition and returns a json object containing the bounding boxes of the detected cells in the table.
 
-<img src="https://sentinel-ai-docs.vercel.app/img/tables_constructor.png" />
+<img src="https://sentinel-ai-docs.vercel.app/img/table_constructor.png" />
 
 ## Usage
 

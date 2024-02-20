@@ -1,0 +1,8 @@
+{
+  "label": "Tabular Data",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Helper tools to scan and parse tabular data to your vectorstore."
+  }
+}
