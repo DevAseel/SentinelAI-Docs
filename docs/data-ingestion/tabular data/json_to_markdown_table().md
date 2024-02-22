@@ -2,19 +2,19 @@
 sidebar_position: 7
 ---
 
-# json_to_markdown_table()
+# json_to_markdown_convertor()
 
-`json_to_markdown_table()` method is used to convert a parsed table in JSON format to Markdown format. The resulting Markdown table can be used for easy integration into Markdown documents.
+`json_to_markdown_convertor()` method is used to convert a parsed table in JSON format to Markdown format. The resulting Markdown table can be used for easy integration into Markdown documents.
 
 
 <img src="https://sentinel-ai-docs.vercel.app/img/json_to_markdown.png" />
 
 ## Usage
 
-- Find the execution file at `./json_to_markdown_table.py` and run the following command:
+- Find the execution file at `./json_to_markdown_convertor.py` and run the following command:
 
 ```bash
-    python json_to_markdown_table.py --json-path <path-to-parsed-json-table>
+    python json_to_markdown_convertor.py --json-path <path-to-parsed-json-table>
 ```
 
 
